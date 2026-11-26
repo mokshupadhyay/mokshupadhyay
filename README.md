@@ -19,6 +19,10 @@ Payment and React Native libraries, published on npm:
 
 Also: [react-native-flex-toast](https://github.com/mokshupadhyay/react-native-flex-toast), [react-native-app-icon-switcher](https://github.com/mokshupadhyay/react-native-app-icon-switcher) and [react-native-anchor-tips](https://github.com/mokshupadhyay/react-native-anchor-tips).
 
+#### Writing
+- [Safe to retry](https://mokshupadhyay.com/writing/safe-to-retry): why a payment request that times out must be retried with the same idempotency key.
+- [Verifying payment webhooks from Indian gateways](https://mokshupadhyay.com/writing/indian-payment-webhooks): how Razorpay, Cashfree, PhonePe, PayU, Juspay and Easebuzz sign webhooks, and how to check them.
+
 #### Building
 - **[ROKENSU Paper](https://paper.rokensu.com)**: an offline PDF toolkit for iPhone and Android. Native Swift and Kotlin, files never leave the phone. Coming soon to the App Store and Google Play.
 - **[MeMind](https://memind.in)**: learn from your own notes and PDFs, with answers that cite the page.
