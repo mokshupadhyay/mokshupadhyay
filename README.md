@@ -15,6 +15,7 @@ Payment and React Native libraries, published on npm:
 | [india-webhooks](https://github.com/mokshupadhyay/india-webhooks) | Verify payment webhooks from Razorpay, Cashfree, PhonePe, PayU, Juspay and Easebuzz |
 | [idempotent-queue](https://github.com/mokshupadhyay/idempotent-queue) | Never double-send a payment on a flaky network, in the browser or Node |
 | [react-native-idempotent-queue](https://github.com/mokshupadhyay/react-native-idempotent-queue) | The same guarantee for React Native apps |
+| [x402-once](https://github.com/mokshupadhyay/x402-once) | Pay once per x402 purchase, even when a response is lost: a retry never becomes a second USDC charge |
 | [react-upi-qr](https://github.com/mokshupadhyay/react-upi-qr) | UPI payments on the web: a QR code on desktop, the app on mobile |
 
 Also: [react-native-flex-toast](https://github.com/mokshupadhyay/react-native-flex-toast), [react-native-app-icon-switcher](https://github.com/mokshupadhyay/react-native-app-icon-switcher) and [react-native-anchor-tips](https://github.com/mokshupadhyay/react-native-anchor-tips).
@@ -22,6 +23,7 @@ Also: [react-native-flex-toast](https://github.com/mokshupadhyay/react-native-fl
 #### Writing
 - [Safe to retry](https://mokshupadhyay.com/writing/safe-to-retry): why a payment request that times out must be retried with the same idempotency key.
 - [Verifying payment webhooks from Indian gateways](https://mokshupadhyay.com/writing/indian-payment-webhooks): how Razorpay, Cashfree, PhonePe, PayU, Juspay and Easebuzz sign webhooks, and how to check them.
+- [When an AI agent pays twice](https://mokshupadhyay.com/writing/when-an-ai-agent-pays-twice): how a retry makes an agent pay twice with x402, and what I measured on a real test chain.
 
 #### Building
 - **[ROKENSU Paper](https://paper.rokensu.com)**: an offline PDF toolkit for iPhone and Android. Native Swift and Kotlin, files never leave the phone. Coming soon to the App Store and Google Play.
